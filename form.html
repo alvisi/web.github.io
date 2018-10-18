@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Pendaftaran ORMAWA</title>
+<link rel="stylesheet" type="text/css" href="form.css">
+</head>
+<body background="background2.jpg" class="body">
+
+<header>
+
+  <div class="header">
+  <img src='logo unej.png' width="90" height="90" class="logo">
+  <h1 class="text1">Universitas Jember</h1><br>
+  <h1 class="text2">Fakultas Ilmu Komputer</h1>
+  </div>
+
+  <div class="navigasi">
+  <a href="css.css"> HOME</a>
+  <a href="."> PENGUMUMAN</a>   
+  <a class="aktif"> PROFIL ORMAWA</a>
+  <a href="."> BANTUAN</a>
+  </div>
+</header>
+
+<div class="form">
+<fieldset  style=" background-color: grey  ; opacity: 0.9 ;width: 25% ; height: 600px ; align-items: center; margin: 30%;">
+<h2> Formulir Pendaftaran Ormawa <h5> 
+	
+<form action="/action_page.php">
+	<br>
+	<br>
+  First name:
+  <input type="text" style= "background-color: rgb(60, 60, 60) " ; name="firstname"; >
+  <br>
+  Last name:
+  <input type="text" style= "background-color: rgb(60, 60, 60) " ; name="lastname" ;>
+  <br>
+  NIM:
+  <input type="text" style= "background-color: rgb(60, 60, 60)" ; name="NIM" ;">
+  <br>
+  Jurusan: 
+  <input type="radio" name="Jurusan" value="Sistem Informasi" checked> Sistem Informasi 
+  <input type="radio" name="Jurusan" value="Teknologi Informasi"> Teknologi Informasi
+  <input type="radio" name="Jurusan" value="other"> Informatika
+  <br>
+  Tahun Angkatan:
+  <select name="Tahun angkatan">
+    <option value="2017/2018">2017/2018</option>
+    <option value="2016/2017">2016/2017</option> 
+  </select><br>
+  </form>
+  Nama ORMAWA:
+  <input type="radio" name="Nama ORMAWA" value="BPM" checked> BPM
+  <input type="radio" name="Jurusan" value="BEMi"> BEM
+  <input type="radio" name="Jurusan" value="HIMASIF"> HIMASIF
+  <input type="radio" name="Jurusan" value="HIMATIF"> HIMATIF 
+  <br>
+  Divisi:<br>
+  <select name="Divisi">
+	<option value="PENGAWAS BEM">PENGAWAS BEM</option>
+	<option value="LEGILASI">LEGILASI</option>
+	<option value="ASPIRASI">ASPIRASI</option>
+    <option value="HUMAS">HUMAS</option>
+	<option value="KOMINFO">KOMINFO</option>
+	<option value="KEMENKO">KEMENKO</option>
+	<option value="KEMENDAGRI">KEMENDAGRI</option>
+    <option value="PSDM">PSDM</option> 
+	<option value="LITBANG">LITBANG</option> 
+	<option value="MEDIATEK">MEDIATEK</option> 
+  </select><br>
+  Jenis Kelamin :
+  <input type="radio" name="gender" value="Perempuan" checked> Perempuan
+  <input type="radio" name="gender" value="Laki-laki"> Laki-laki<br>
+  Motto: <br>
+  <textarea name="message" style= "background-color: rgb(60, 60, 60 ) "; rows="	5" cols="60">
+  </textarea>
+  <br>
+  Alasan mendaftar:<br> 
+  <textarea name="message" style= "background-color: rgb(60, 60, 60 ) "; rows="	5" cols="60">
+  </textarea>
+  <br>
+  *wajib memasukan salah satu diantaranya 
+  <br>
+  Instagram:
+  <input type="text" style= "background-color: rgb(60, 60, 60) " ; name="Instagram">
+  <br>
+  Facebook:
+  <input type="text" style= "background-color: rgb(60, 60, 60) " ; name="Facebook">
+  <br>
+  Twitter:
+  <input type="text" style= "background-color: rgb(60, 60, 60)" ; name="Twitter">
+  <br>
+  <input type="button" onclick="alert('Data diri anda berhasil disimpan :)')" value="Simpan">
+  </fieldset>
+
+  </div>
+</div>
+
+<img src='tanggal.png' class="tanggal">
+<img src='pinggir1.png' class="pinggir">
+
+<div class="vl"></div>
+
+<div class="footer">
+  <p>FORMULIR ORMAWA FASILKOM</p>
+</div>
+
+</body>
+</html>

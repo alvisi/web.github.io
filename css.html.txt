@@ -1,0 +1,29 @@
+<html>
+<head>
+<title>Pendaftaran ORMAWA</title>
+</head>
+<body>
+body {
+	background: url('backgound.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin:0;
+			}
+header {
+	text-align: center;
+	font-size: 18pt;
+	background: url('latarbelakang2.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding:5px;
+	border-bottom: 2px solid black;
+	border-style: inset;
+	color: white;
+			}
+<h2>Fakultas Ilmu Komputer</h2>
+<h1>Universitas Jember<h1>
+
+
+
+</body>
+</html>
