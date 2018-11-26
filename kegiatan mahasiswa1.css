@@ -1,0 +1,222 @@
+html {
+    background: url("background2.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+body {
+    display: block;
+    margin: 8px;
+}
+.footer {
+	margin-top: 2600px;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+
+
+	header {	font-size: 18pt;
+				background-repeat: repeat;
+				background-color: gray;
+				height: 100px;
+				border-bottom: 5px solid black;
+				border-style: inset;
+			}
+	.logo { 
+			margin-left: 80px;
+			margin-top: 2px;
+			float: left;
+			}
+	.text1 {
+		float: left;
+		color: white;
+		font-size: 30px;
+		margin-top: 15px;
+	}
+	.text2 {
+		float: left;
+		color: white;
+		position: absolute;
+		font-size: 20px;
+		margin-left: 175px;
+		margin-top: 30px;
+	}
+
+.navigasi {
+	border-radius: 10px;
+	display: inline-block;
+	float: right;
+	margin-top: 0px;
+	font-size: 15px;
+	margin-right: 20px;
+	padding: 20px 0px 20px 0px;
+	background-color: grey
+
+}
+.aktif {
+	border-radius: 10px;
+	background-color: black;
+}
+.navigasi a {
+	text-decoration: none;
+	padding: 15px;
+	color: white;
+	border-color: white;
+}
+.navigasi a:hover {
+	border-radius: 10px;
+	background: black;
+	color: white;
+}
+
+.isi {
+  margin-top: 50px;
+  float: right;
+  width: 75%;
+  color: white;
+}
+
+.isi1{
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tablinks {
+	color: white;
+}
+
+
+.tab {
+    overflow: hidden;
+    border: 4px solid #ccc;
+    background-color: rgba(0,0,0,0.5);
+    width: 27%;
+}
+
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #ddd;
+}
+
+.tab button.active {
+    background-color: #ccc;
+}
+
+.tabcontent {
+    display: none;
+    border: 4px solid #ccc;
+}
+
+.tab1 {
+    overflow: hidden;
+    border: 4px solid #ccc;
+    background-color: rgba(0,0,0,0.5);
+    width: 27%;
+}
+
+.tab1 button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab1 button:hover {
+    background-color: #ddd;
+}
+
+.tab1 button.active {
+    background-color: #ccc;
+}
+
+.tabcontent1 {
+    display: none;
+    padding: 6px 12px;
+    border: 4px solid #ccc;
+}
+.tablinks1 {
+	color: white;
+}
+
+.tablinks2 {
+	color: white;
+}
+
+
+.tab2 {
+    overflow: hidden;
+    border: 4px solid #ccc;
+    background-color: rgba(0,0,0,0.5);
+    width: 27%;
+}
+
+.tab2 button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab2 button:hover {
+    background-color: #ddd;
+}
+
+.tab2 button.active {
+    background-color: #ccc;
+}
+
+.tabcontent2 {
+    display: none;
+    border: 4px solid #ccc;
+}
+
+.left {
+	float: left;
+	width: 20%;
+	margin-top: -10px;
+	display: inline-block;
+}
+
+.fakeimg { 
+    background-color: #aaa;
+    width: 50%;
+    padding: 0px;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center; 
+}
+.row:after {
+    display: table;
+    clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+.akun {
+	background-color: #aaa;
+	width: 20%;
+	padding: 0px;
+}

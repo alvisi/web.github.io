@@ -1,0 +1,145 @@
+html {
+    background: url("background2.jpg") no-repeat center center fixed;
+    background-size: cover;
+  }
+.footer {
+	display: block;
+	margin-top: 2000px;
+   width: 100%;
+   background-color: grey;
+   color: white;
+   text-align: center;
+}
+.titut {
+	border-left: 2px solid grey;
+}
+
+
+	header {	font-size: 18pt;
+				background-repeat: repeat;
+				background-color: gray;
+				height: 100px;
+				border-bottom: 5px solid black;
+				border-style: inset;
+			}
+	.logo { 
+			margin-left: 80px;
+			margin-top: 2px;
+			float: left;
+			}
+	.text1 {
+		float: left;
+		color: white;
+		font-size: 30px;
+		margin-top: 15px;
+	}
+	.text2 {
+		float: left;
+		color: white;
+		position: absolute;
+		font-size: 20px;
+		margin-left: 175px;
+		margin-top: 30px;
+	}
+
+.navigasi {
+	border-radius: 10px;
+	display: inline-block;
+	float: right;
+	margin-top: 0px;
+	font-size: 15px;
+	margin-right: 20px;
+	padding: 20px 0px 20px 0px;
+	background-color: grey
+
+}
+.aktif {
+	border-radius: 10px;
+	background-color: black;
+}
+.navigasi a {
+	text-decoration: none;
+	padding: 15px;
+	color: white;
+	border-color: white;
+}
+.navigasi a:hover {
+	border-radius: 10px;
+	background: black;
+	color: white;
+}
+.content {
+	color: white;
+	margin-top: 20px;
+	display: none;
+    position: absolute;
+	background-color: rgba(102, 153, 153, 0.7);
+    min-width: 164px;
+}
+.content a {
+	color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.content a:hover {
+	background-color: black;
+}
+
+.isi {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    width: 75%;
+    border: 10px;
+    padding: 0px;
+    border:7px solid black;
+	border-style: inset;
+	margin-top: 50px;
+	font-size: 16px;
+	float: right;
+}
+
+.gambar {
+	width: 88%;
+}
+
+video {
+    max-width: 100%;
+    height: auto;
+    padding-left: 20px;
+}
+
+.left {
+	float: left;
+	width: 20%;
+	margin-top: -1214px;
+	display: inline-block;
+}
+
+
+.fakeimg { 
+    background-color: #aaa;
+    width: 50%;
+    padding: 0px;
+}
+
+.card {
+    background-color: white;
+    padding: 10px;
+    margin-top: 20px;
+    text-align: center; 
+}
+.row:after {
+    display: table;
+    clear: both;
+}
+
+a {
+	text-decoration: none;
+}
+
+.akun {
+	background-color: #aaa;
+	width: 20%;
+	padding: 0px;
+}

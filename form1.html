@@ -1,0 +1,142 @@
+<html>
+<head>
+<title>Pendaftaran ORMAWA</title>
+<link rel="stylesheet" type="text/css" href="form1.css">
+<script type="text/javascript" src="js.js"></script>
+</head>
+<body>
+
+<header>
+  <div class="header">
+  <img src='logo unej.png' width="90" height="90" class="logo">
+  <h1 class="text1">Universitas Jember</h1><br>
+  <h1 class="text2">Fakultas Ilmu Komputer</h1>
+  </div>
+
+  <div class="navigasi">
+  <a class="home1.html"> HOME</a>
+  <a href="."> PENGUMUMAN</a>   
+  <a href="kegiatan mahasiswa1.html"> PROFIL ORMAWA</a>
+  <a href="#footer1"> BANTUAN</a>
+  </div>
+  </header>
+
+<div class="form">
+<fieldset  style=" background-color: grey  ; opacity: 0.9 ;width: 25% ; height: 620px ; align-items: center; margin: 30%;">
+<h2> Formulir Pendaftaran Ormawa <h5> 
+	
+<form name="Organisasi" method="post" action="/action_page.php">
+	<br>
+	<br>
+  First name:
+  <input type="text" style= "background-color: rgb(60, 60, 60) " ; name="firstname"; >
+  <br>
+  Last name:
+  <input type="text" style= "background-color: rgb(60, 60, 60) " ; name="lastname" ;>
+  <br>
+  NIM:
+  <input type="text" style= "background-color: rgb(60, 60, 60)" ; name="NIM" ;">
+  <br>
+  Jurusan: 
+  <input type="radio" name="Jurusan" value="Sistem Informasi"> Sistem Informasi 
+  <input type="radio" name="Jurusan" value="Teknologi Informasi"> Teknologi Informasi
+  <input type="radio" name="Jurusan" value="other"> Informatika
+  <br>
+  Tahun Angkatan:
+  <select name="Tahun Angkatan">
+          <option value="">Tahun Angkatan</option>
+          <option value="2014">2014</option>
+          <option value="2015">2015</option>
+          <option value="2016">2016</option>
+          <option value="2017">2017</option>
+          <option value="2018">2018</option>
+        </select>
+  <br>
+
+  Nama ORMAWA:
+  <input type="radio" name="Ormawa" value="BPM"> BPM
+  <input type="radio" name="Ormawa" value="BEM"> BEM
+  <input type="radio" name="Ormawa" value="HIMASIF"> HIMASIF
+  <input type="radio" name="Ormawa" value="HIMATIF"> HIMATIF 
+  <br>
+  Divisi:<br>
+  <select name="Divisi">
+  	<option value="">Divisi</option>
+	<option value="PENGAWAS BEM">PENGAWAS BEM</option>
+	<option value="LEGILASI">LEGILASI</option>
+	<option value="ASPIRASI">ASPIRASI</option>
+    <option value="HUMAS">HUMAS</option>
+	<option value="KOMINFO">KOMINFO</option>
+	<option value="KEMENKO">KEMENKO</option>
+	<option value="KEMENDAGRI">KEMENDAGRI</option>
+    <option value="PSDM">PSDM</option> 
+	<option value="LITBANG">LITBANG</option> 
+	<option value="MEDIATEK">MEDIATEK</option> 
+  </select><br>
+  Jenis Kelamin :
+  <input type="radio" name="gender" value="Perempuan" > Perempuan
+  <input type="radio" name="gender" value="Laki-laki"> Laki-laki<br>
+  Motto: <br>
+  <textarea name="Motto" style= "background-color: rgb(60, 60, 60 ) "; rows="	5" cols="60">
+  </textarea>
+  <br>
+  Alasan mendaftar:<br> 
+  <textarea name="Alasan" style= "background-color: rgb(60, 60, 60 ) "; rows="	5" cols="60">
+  </textarea>
+  <br>
+  *wajib memasukan salah satu diantaranya 
+  <br>
+  Instagram:
+  <input type="text" style= "background-color: rgb(60, 60, 60) " ; name="Instagram">
+  <br>
+  Facebook:
+  <input type="text" style= "background-color: rgb(60, 60, 60) " ; name="Facebook">
+  <br>
+  Twitter:
+  <input type="text" style= "background-color: rgb(60, 60, 60)" ; name="Twitter">
+  <br>
+  <input type="button" onclick="Input()" value="Simpan" name="simpan">
+  <input type="reset" name="reset" value="Ulangi"> <br><br><br><br>
+  <div class="tabelinput">
+    <table border="1" id="Input" style="border-collapse: collapse; background-color: white" width="100%" >
+    <tr style="background-color: grey ; border: 1px ; text-align: center;">
+      <td>First Name</td>
+      <td>Last Name</td>
+      <td>NIM</td>
+      <td>Jurusan</td>
+      <td>Tahun Angkatan</td>
+      <td>Nama ORMAWA</td>
+      <td>Divisi</td>
+      <td>Jenis Kelamin</td>
+      <td>Motto</td>
+      <td>Alasan</td>
+      <td>Instagram</td>
+      <td>Facebook</td>
+      <td>Twitter</td>
+    </tr>
+  </table> 
+  </div> 
+  </fieldset>
+
+			
+  </div>
+</div>
+  </form>
+
+
+<div class="footer" id="footer1"><br>
+<table>
+    <td><h3>Media Belajar</h3>
+    Media pembelajaran yang diterapkan difasilkom menggunakan sistem informasi terpadu ( sister ) dimana segala aktivitas perkuliahan dilakukan menggunakan media tersebut, misal pemrograman krs, status pembayaran, cuti mahasiswa dll</td>
+    <td class="titut"><h3>Company</h3>Kampus dengan sejuta keindahan dan tenaga pelajar yang profesional, nantinya diharapkan dapat membawa nama baik Fasilkom untuk lebih baik lagi</td>
+    <td class="titut"><h3>Contact Info</h3>
+    Phone: +62 331 326911 
+  Email: dekan.ilkom@unej.ac.id
+  </td>
+  <td> <img src="logo unej.png" height="100px"></td>
+</table>
+</div>
+
+
+</body>
+</html>
